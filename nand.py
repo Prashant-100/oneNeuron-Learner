@@ -14,11 +14,11 @@ def main(data, modelName, plotName, eta, epochs):
     save_plot(df, plotName, model)
 
 if __name__ == '__main__':
-    XOR = {
+    NAND = {
         "x1": [0,0,1,1],
         "x2": [0,1,0,1],
-        "y": [0,1,1,0],
+        "y": [1,1,1,0 ],
     }
     ETA = 0.3 # 0 and 1
     EPOCHS = 10
-    main(data=XOR, modelName="xor.model", plotName="xor.png", eta=ETA, epochs=EPOCHS)
+    main(data=NAND, modelName="nand.model", plotName="nand.png", eta=ETA, epochs=EPOCHS)
