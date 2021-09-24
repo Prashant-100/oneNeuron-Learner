@@ -1,3 +1,7 @@
+    """author: Prashant
+       email: dwivedi.prashant91@gmail.com
+    """
+
 from utils.models import Perceptron
 from utils.all_utils import prepare_data, save_plot, save_model
 import pandas as pd
