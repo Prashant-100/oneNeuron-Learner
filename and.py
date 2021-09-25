@@ -1,5 +1,6 @@
-"""author: Prashant
-    email: dwivedi.prashant91@gmail.colormap
+"""
+author: Prashant
+email: dwivedi.prashant91@gmail.com
 """    
 
 from utils.models import Perceptron
